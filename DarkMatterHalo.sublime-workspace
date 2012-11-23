@@ -1,0 +1,1115 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"in",
+				"indexY"
+			],
+			[
+				"inde",
+				"indexX"
+			],
+			[
+				"mas",
+				"maxseconIndex"
+			],
+			[
+				"ta",
+				"tagLocalMaximum"
+			],
+			[
+				"remove",
+				"removeLocalMaximum"
+			],
+			[
+				"s",
+				"signals"
+			],
+			[
+				"max",
+				"maxvalue"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"ne",
+				"nexty"
+			],
+			[
+				"index",
+				"index1"
+			],
+			[
+				"y",
+				"yvalues"
+			],
+			[
+				"Re",
+				"removeLocalMaximum"
+			],
+			[
+				"min",
+				"minsignal"
+			],
+			[
+				"lar",
+				"largesty"
+			],
+			[
+				"smalle",
+				"smallesty"
+			],
+			[
+				"get",
+				"getTopNMaxima"
+			],
+			[
+				"ma",
+				"maxseconIndex"
+			],
+			[
+				"res",
+				"ressofar"
+			],
+			[
+				"TRain",
+				"Training_halos"
+			],
+			[
+				"two",
+				"twocoords"
+			],
+			[
+				"sum",
+				"sumOfTwoSig"
+			],
+			[
+				"sort",
+				"sortedSignal"
+			],
+			[
+				"pre",
+				"preComputeLikelyhood"
+			],
+			[
+				"the",
+				"thetarange"
+			],
+			[
+				"x",
+				"xcoord1"
+			],
+			[
+				"posit",
+				"position_halo"
+			],
+			[
+				"xc",
+				"xcoord1"
+			],
+			[
+				"all",
+				"allThetaAndD"
+			],
+			[
+				"coord",
+				"coord1"
+			],
+			[
+				"gues",
+				"guesscoord"
+			],
+			[
+				"allD",
+				"allDAndTheta"
+			],
+			[
+				"model",
+				"modelpdf"
+			],
+			[
+				"fit",
+				"fitFormula"
+			],
+			[
+				"di",
+				"distanceBins"
+			],
+			[
+				"pro",
+				"probability"
+			],
+			[
+				"dis",
+				"distanceRange"
+			],
+			[
+				"distance",
+				"distanceBins"
+			],
+			[
+				"pdf",
+				"pdfFits"
+			],
+			[
+				"fi",
+				"fittedPDF"
+			],
+			[
+				"fig",
+				"figure"
+			],
+			[
+				"Tr",
+				"True"
+			],
+			[
+				"fitt",
+				"fittedPDF"
+			],
+			[
+				"binCoun",
+				"binCountAngle"
+			],
+			[
+				"angle",
+				"angleBins"
+			],
+			[
+				"fitTo",
+				"fitToCosine"
+			],
+			[
+				"thet",
+				"thetaRange"
+			],
+			[
+				"binC",
+				"binCountAngle"
+			],
+			[
+				"2D",
+				"2DbinCounts"
+			],
+			[
+				"norm",
+				"normaliseByFirstCoordinate"
+			],
+			[
+				"st",
+				"collectStatistics"
+			],
+			[
+				"sky",
+				"TrainingSky"
+			],
+			[
+				"allEll",
+				"allElliptMag"
+			],
+			[
+				"rela",
+				"relativeAngle"
+			],
+			[
+				"allE",
+				"allElliptAngle"
+			],
+			[
+				"tr",
+				"True"
+			],
+			[
+				"bin",
+				"binCounts"
+			],
+			[
+				"ell",
+				"ellipticityCartesian"
+			],
+			[
+				"el",
+				"ellipticity"
+			],
+			[
+				"elliptic",
+				"ellipticity"
+			],
+			[
+				"ha",
+				"halocoord"
+			],
+			[
+				"e",
+				"ellipticity1"
+			],
+			[
+				"rel",
+				"relativeAngle"
+			],
+			[
+				"Al",
+				"allElliptMag"
+			],
+			[
+				"allEl",
+				"allElliptAngle"
+			],
+			[
+				"py",
+				"pylab"
+			],
+			[
+				"com",
+				"computeHaloInformation"
+			],
+			[
+				"Train",
+				"TrainingSky"
+			],
+			[
+				"Tra",
+				"TrainingSky"
+			],
+			[
+				"tri",
+				"trainingHalo"
+			],
+			[
+				"trainin",
+				"trainingHalo"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"dt",
+				"dtInit"
+			],
+			[
+				"press",
+				"pressureHead"
+			],
+			[
+				"soil",
+				"soilParameters"
+			],
+			[
+				"wate",
+				"waterContent"
+			],
+			[
+				"theta",
+				"thetar"
+			],
+			[
+				"total",
+				"totalConcentration"
+			],
+			[
+				"tot",
+				"totalConcentration"
+			],
+			[
+				"ele",
+				"elemId"
+			],
+			[
+				"up",
+				"upOrDown"
+			],
+			[
+				"define",
+				"defineTriangle"
+			],
+			[
+				"de",
+				"defineTriangle"
+			],
+			[
+				"fib",
+				"fibonacci"
+			],
+			[
+				"sq",
+				"squareAll"
+			],
+			[
+				"n",
+				"numbers"
+			],
+			[
+				"M",
+				"MBand"
+			],
+			[
+				"NE",
+				"NumElD"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Training_halos.csv",
+			"settings":
+			{
+				"buffer_size": 19631,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "TrainingSets.py",
+			"settings":
+			{
+				"buffer_size": 11692,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "findMaxima.py",
+			"settings":
+			{
+				"buffer_size": 3238,
+				"line_ending": "Windows",
+				"name": "from TrainingSet import *"
+			}
+		},
+		{
+			"file": "exploratory_plots.py",
+			"settings":
+			{
+				"buffer_size": 2913,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Gridded_Signal_benchmark_KIRJ.py",
+			"settings":
+			{
+				"buffer_size": 3832,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Python27/Lib/site-packages/numpy/core/numeric.py",
+			"settings":
+			{
+				"buffer_size": 69753,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "geometriclib.py",
+			"settings":
+			{
+				"buffer_size": 1065,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Train_Skies/Training_Sky89.csv",
+			"settings":
+			{
+				"buffer_size": 32557,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Gridded_Signal_benchmark.py",
+			"settings":
+			{
+				"buffer_size": 5546,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Word Wrap: Toggle"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/kirj/Documents/DarkHalo/geometriclib.py",
+		"/C/Python27/lib/site-packages/matplotlib/axes.py",
+		"/C/Users/kirj/Documents/Projects/Syngenta/AllRuns/ComparisonWithFocus/BBCH9/CHAIN_2D_IN/Grid.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/AllRuns/ComparisonWithFocus/BBCH9/CHAIN_2D_IN/OKEH-M.met",
+		"/C/Users/kirj/Documents/Projects/Syngenta/AllRuns/ComparisonWithFocus/BBCH9/CHAIN_2D_IN/Selector.in",
+		"/C/Users/kirj/Desktop/Chain2D-SPACSYS/Chain2DLib/src/WATFLOW2.FOR",
+		"/C/Users/kirj/Desktop/Chain2D-SPACSYS/Tests/UnitTests/SimpleCaseWithTValues/CHAIN_2D_IN/Selector.in",
+		"/C/Users/kirj/Desktop/Chain2D-SPACSYS/Tests/UnitTests/SimpleCaseWithTValues/CHAIN_2D_IN/Grid.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/AllRuns/ComparisonWithFocus/BBCH9/LowerKs/CHAIN_2D_OUT/ObsNod.out",
+		"/C/Users/kirj/Documents/Projects/Syngenta/AllRuns/ComparisonWithFocus/BBCH9/CHAIN_2D_OUT/ObsNod.out",
+		"/C/Users/kirj/Desktop/functional/ComputeDissolveConcentration.hs",
+		"/C/Users/kirj/Documents/Projects/Syngenta/AllRuns/ComparisonWithFocus/BBCH9/LowerKs/CHAIN_2D_IN/Selector.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/AllRuns/ComparisonWithFocus/BBCH9/CHAIN_2D.IN/Atmosph.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/AllRuns/RunSimunekExamples/Test1/CHAIN_2D.IN/Atmosph.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/AllRuns/ComparisonWithFocus/BBCH9/NonEquilibriumSolvation-LowerKs/CHAIN_2D_IN/Grid.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/AllRuns/ComparisonWithFocus/BBCH9/NonEquilibriumSolvation/CHAIN_2D_IN/Grid.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/AllRuns/ComparisonWithFocus/BBCH9/focusLiquid.dat",
+		"/C/Users/kirj/Documents/Projects/Syngenta/AllRuns/ComparisonWithFocus/BBCH9/focusSolid.dat",
+		"/C/Users/kirj/Documents/Projects/Syngenta/AllRuns/ComparisonWithFocus/BBCH38/focusLiquid.dat",
+		"/C/Users/kirj/Documents/Projects/Syngenta/AllRuns/ComparisonWithFocus/BBCH38/focusSolid.dat",
+		"/C/Users/kirj/Documents/Projects/Syngenta/AllRuns/ComparisonWithFocus/BBCH9/NonEquilibriumSolvation - LowerKs/CHAIN_2D_IN/Selector.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/AllRuns/ComparisonWithFocus/BBCH9/NonEquilibriumSolvation/CHAIN_2D_IN/Selector.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/SimuneksCode/TIME2.FOR",
+		"/C/Users/kirj/Desktop/Chain2D-SPACSYS/Chain2DLib/src/TIME2.FOR",
+		"/C/Users/kirj/Desktop/talk plan",
+		"/C/Users/kirj/Documents/Projects/Syngenta/AllRuns/ComparisonWithFocus/BBCH38/Focus.dat",
+		"/C/Users/kirj/Documents/Projects/Syngenta/AllRuns/ComparisonWithFocus/BBCH9/NonEquilibriumSolvation-omegatenth/CHAIN_2D_IN/Selector.in",
+		"/C/Users/kirj/Desktop/Chain2D-SPACSYS/Tests/Regression Tests/runTests.sh",
+		"/C/Users/kirj/Desktop/Chain2D-SPACSYS/.gitignore",
+		"/C/Users/kirj/Desktop/Chain2D-SPACSYS/Chain2DLib/src/INPUT2.FOR",
+		"/C/Users/kirj/Documents/Projects/Syngenta/SimuneksCode/INPUT2.FOR",
+		"/C/Users/kirj/Documents/Projects/Syngenta/AllRuns/ComparisonWithFocus/BBCH9/No-Transpiration/CHAIN_2D_OUT/ObsNod.out",
+		"/C/Users/kirj/Documents/Projects/Syngenta/AllRuns/TestExample/CHAIN_2D_IN/OKEH-M.met",
+		"/C/Users/kirj/Documents/Projects/Syngenta/AllRuns/TestExample/CHAIN_2D_OUT/Cum_Q.out",
+		"/C/Users/kirj/Desktop/new/List of changes in INPUT2.FOR -",
+		"/C/Users/kirj/Documents/Projects/Syngenta/AllRuns/ComparisonWithFocus/BBCH9/ShortRun/CHAIN_2D_OUT/ObsNod.out",
+		"/C/Users/kirj/Documents/Projects/Syngenta/AllRuns/TestExample/1000days-highHCritA/CHAIN_2D_IN/Selector.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/AllRuns/TestExample/1000days-highHCritA/CHAIN_2D_IN/Atmosph.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/AllRuns/ComparisonWithFocus/BBCH9/ShortRun/CHAIN_2D_OUT/Cum_Q.out",
+		"/C/Users/kirj/Documents/Projects/Syngenta/AllRuns/ComparisonWithFocus/BBCH9/No-Transpiration/CHAIN_2D_OUT/Cum_Q.out",
+		"/C/Users/kirj/Documents/Projects/Syngenta/SimuneksCode/CHAIN_2D.FOR",
+		"/C/Users/kirj/Documents/Projects/Syngenta/AllRuns/TestExample/CHAIN_2D_OUT/Boundary.out",
+		"/C/Users/kirj/Documents/Projects/Syngenta/AllRuns/ComparisonWithFocus/BBCH9/No-Transpiration/CHAIN_2D_IN/OKEH-M.met",
+		"/C/Users/kirj/Desktop/Chain2D-SPACSYS/BashHelperScripts/plot_all_conc.sh",
+		"/C/Users/kirj/Desktop/Chain2D-SPACSYS/Chain2DLib/src/helper.FOR",
+		"/C/Users/kirj/Documents/Projects/Syngenta/RunSimunekExamples/Test1/CHAIN_2D.OUT/Balance.out",
+		"/C/Users/kirj/Downloads/Selector (6).in",
+		"/C/Users/kirj/Downloads/Balance (1).out",
+		"/C/Users/kirj/Desktop/SyngentaRepository/readme.txt",
+		"/C/Users/kirj/Documents/Projects/Syngenta/RunSimunekExamples/Test1/CHAIN_2D.IN/Grid.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/SimuneksCode/OUTPUT2.FOR",
+		"/C/Users/kirj/Documents/Projects/Syngenta/RunSimunekExamples/Test1/OriginalCodeNewParam/CHAIN_2D.IN/Atmosph.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/RunSimunekExamples/Test1a/TDispl1/SimunkeCode/CHAIN_2D.IN/Atmosph.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/RunSimunekExamples/Test1a/TDispl1/SimunkeCode/CHAIN_2D.IN/Selector.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/RunOriginalCode/Test7/CHAIN_2D.IN/Grid.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/RunOriginalCode/Test7/CHAIN_2D.IN/ATMOSPH.IN",
+		"/C/Users/kirj/Documents/Projects/Syngenta/RunOriginalCode/EXAMPLE-Atm/CHAIN_2D.IN/SELECTOR.IN",
+		"/C/Users/kirj/Documents/Projects/Syngenta/RunSimunekExamples/RunExample2/CHAIN_2D.IN/GRID.IN",
+		"/C/Users/kirj/Documents/Projects/Syngenta/7113/trunk/Debug/CHAIN_2D_IN/OKEH-M.met",
+		"/C/Users/kirj/Documents/Projects/Syngenta/FilesForKIRJ/FilesForKIRJ/CHAIN_2D/SOURCE.FOR/CHAIN_2D.IN/SELEC_A.IN",
+		"/C/Users/kirj/Documents/Projects/Syngenta/RunSimunekExamples/Test1/CHAIN_2D.IN/Selector.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/FilesForKIRJ/FilesForKIRJ/CHAIN_2D/SOURCE.FOR/CHAIN_2D.IN/SELEC_B.IN",
+		"/C/Users/kirj/Documents/Projects/Syngenta/SimuneksCode/WATFLOW2.FOR",
+		"/C/Users/kirj/Desktop/7113/trunk/Debug/CHAIN_2D_IN/OKEH-M.met",
+		"/C/Users/kirj/Documents/Projects/Syngenta/7113/trunk/Chain2DLib/src/TIME2.FOR",
+		"/C/Users/kirj/Desktop/7113/trunk/inputs/CHAIN_2D_IN/OKEH-M.met",
+		"/C/Users/kirj/Documents/Projects/Syngenta/RunSimunekExamples/Test1/AnalyseDifferences/ChangeToDesiredParameters/CHAIN_2D_IN/OKEH-M.met",
+		"/C/Users/kirj/Documents/Projects/Syngenta/FilesForKIRJ/FilesForKIRJ/CHAIN_2D/SOURCE.FOR/TIME2.FOR",
+		"/C/Users/kirj/Documents/Projects/Syngenta/7113/trunk/Chain2DLib/src/helper.FOR",
+		"/C/Users/kirj/Documents/Projects/Syngenta/7113/trunk/Chain2DLib/src/INPUT2.FOR",
+		"/C/Users/kirj/Documents/Projects/Syngenta/FilesForKIRJ/FilesForKIRJ/CHAIN_2D/SOURCE.FOR/CHAIN_2D.FOR",
+		"/C/Users/kirj/Documents/Projects/Syngenta/DifferencesInCode/alldiffs2.txt",
+		"/C/Users/kirj/Documents/Projects/Syngenta/FilesForKIRJ/FilesForKIRJ/CHAIN_2D/SOURCE.FOR/OUTPUT2.FOR",
+		"/C/Users/kirj/Documents/Projects/Syngenta/7113/trunk/Chain2DLib/src/OUTPUT2.FOR",
+		"/C/Users/kirj/Documents/Projects/Syngenta/7113/trunk/Chain2DLib/src/SOLUTE2.FOR",
+		"/C/Users/kirj/Documents/Projects/Syngenta/7113/trunk/Chain2DLib/src/WATFLOW2.FOR",
+		"/C/Users/kirj/Documents/Projects/Syngenta/7113/trunk/Chain2DLib/src/MATERIA2.FOR",
+		"/C/Users/kirj/Documents/Projects/Syngenta/DifferencesInCode/getdiffs.sh",
+		"/C/Users/kirj/Documents/Projects/Syngenta/RunSimunekExamples/Test1/widerGrid/CHAIN_2D.IN/Grid.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/RunSimunekExamples/Test1/widerGrid/CHAIN_2D.IN/Selector.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/ComparisonWithFocus/BBCH38/CHAIN_2D_IN/OKEH-M.met",
+		"/C/Users/kirj/Documents/Projects/Syngenta/ComparisonWithFocus/BBCH9/CHAIN_2D_IN/OKEH-M.met",
+		"/C/Users/kirj/Documents/Projects/Syngenta/ComparisonWithFocus/BBCH38/CHAIN_2D_IN/Selector.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/ComparisonWithFocus/BBCH38/CHAIN_2D_OUT/ObsNod.out",
+		"/C/Users/kirj/Documents/Projects/Syngenta/ComparisonWithFocus/BBCH38/CHAIN_2D_IN/Atmosph.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/ComparisonWithFocus/BBCH38/CHAIN_2D_IN/Grid.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/Simunek's Code/CHAIN_2D.FOR",
+		"/C/Users/kirj/Documents/Projects/Syngenta/Simunek's Code/SOLUTE2.FOR",
+		"/C/cygwin/home/kirj/SyngentaRepository/StandardOutput/CHAIN_2D_OUT/Check.out",
+		"/C/Users/kirj/Documents/Projects/Syngenta/FilesForKIRJ/FilesForKIRJ/CHAIN_2D/EXAMPLE.2/CHAIN_2D.IN/SELECTOR.IN",
+		"/C/Users/kirj/Documents/Projects/Syngenta/RunSimunekExamples/Test1/CHAIN_2D.IN/Atmosph.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/RunSimunekExamples/Test1/CHAIN_2D_IN/Selector.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/RunSimunekExamples/Test1/CHAIN_2D_IN/Atmosph.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/ModelRuns/LocalisedSolute/WithSPAC/RemoveRoots/CHAIN_2D_IN/Selector.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/ModelRuns/LocalisedSolute/WithSPAC/RemoveRootsSameDensity/CHAIN_2D_IN/Selector.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/ModelRuns/LocalisedSolute/WithSPAC/RemoveRoots/CHAIN_2D_OUT/Run_Inf.out",
+		"/C/Users/kirj/Documents/Projects/Syngenta/ModelRuns/LocalisedSolute/WithSPAC/CHAIN_2D_OUT/th.out",
+		"/C/Users/kirj/Documents/Projects/Syngenta/ModelRuns/LocalisedSolute/WithSPAC/CHAIN_2D_OUT/v_Mean.out",
+		"/C/Users/kirj/Documents/Projects/Syngenta/ModelRuns/LocalisedSolute/CHAIN_2D_OUT/v_Mean.out",
+		"/C/Users/kirj/Documents/Projects/Syngenta/7113/trunk/Chain2DLib/src/ORTHOFEM.FOR",
+		"/C/Users/kirj/Documents/Projects/Syngenta/ModelRuns/LocalisedSolute/WithSPAC/CHAIN_2D_OUT/Conc.out",
+		"/C/Users/kirj/Documents/Projects/Syngenta/ModelRuns/LocalisedSolute/WithSPAC/CHAIN_2D_IN/Selector.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/ModelRuns/LocalisedSolute/CHAIN_2D_OUT/th.out",
+		"/C/Users/kirj/Documents/Projects/Syngenta/ModelRuns/LocalisedSolute/CHAIN_2D_OUT/vx.out",
+		"/C/Users/kirj/Documents/Projects/Syngenta/ModelRuns/LocalisedSolute/CHAIN_2D_OUT/vz.out",
+		"/C/Users/kirj/Documents/Projects/Syngenta/ModelRuns/LocalisedSolute/WithSPAC/CHAIN_2D_OUT/Solute1.out",
+		"/C/Users/kirj/Documents/Projects/Syngenta/ModelRuns/LocalisedSolute/WithSPAC/CHAIN_2D_OUT/Cum_Q.out",
+		"/C/Users/kirj/Documents/Projects/Syngenta/7113/trunk/Chain2DLib/src/SINK2.FOR",
+		"/C/Users/kirj/Documents/Projects/Syngenta/7113/trunk/Chain2DLib/src/TEMPER2.FOR",
+		"/C/Users/kirj/Documents/Projects/Syngenta/ModelRuns/LocalisedSolute/WithSPAC/CHAIN_2D_OUT/Balance.out",
+		"/C/Users/kirj/Desktop/7113/trunk/Debug/CHAIN_2D_IN/GRID.IN",
+		"/C/Users/kirj/Desktop/7113/trunk/Debug/CHAIN_2D_OUT/S_out.txt",
+		"/C/Users/kirj/Documents/Projects/Syngenta/ModelRuns/LocalisedSolute/CHAIN_2D_IN/Grid.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/ModelRuns/LocalisedSolute/CHAIN_2D_IN/OKEH-M.met",
+		"/C/Users/kirj/Documents/Projects/Syngenta/ModelRuns/LocalisedSolute/CHAIN_2D_IN/Selector.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/RunSimunekExamples/Test1a/TDispl1/TighterGridTriangles/CHAIN_2D_IN/Selector.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/RunSimunekExamples/Test1a/TDispl1/TighterGridTriangles/CHAIN_2D_IN/Grid.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/RunSimunekExamples/Test1a/TDispl1/CHAIN_2D_IN/Selector.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/RunSimunekExamples/Test1a/TDispl1/CHAIN_2D_IN/Grid.in",
+		"/C/Users/kirj/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/kirj/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/kirj/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/kirj/Documents/Projects/Syngenta/RunSimunekExamples/Test1/AnalyseDifferences/ChangeToDesiredParameters/TightenConversion/CHAIN_2D_IN/Selector.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/RunSimunekExamples/Test1/AnalyseDifferences/ChangeToDesiredParameters/CHAIN_2D_IN/Selector.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/RunSimunekExamples/Test1/AnalyseDifferences/ChangeLDisp/TightenConversion/CHAIN_2D_IN/Selector.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/RunSimunekExamples/Test1/AnalyseDifferences/ChangeToDesiredParameters/TightenConversion/WiderGrid/CHAIN_2D_IN/Selector.in",
+		"/C/Users/kirj/Documents/Projects/Syngenta/RunSimunekExamples/Test1/AnalyseDifferences/ChangeToDesiredParameters/TightenConversion/CHAIN_2D_IN/Grid.in",
+		"/C/Users/kirj/Desktop/MakeFEMgrid.hs"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\Users\\kirj\\Desktop\\Chain2D-SPACSYS\\Chain2DLib\\src,<open folders>",
+			"C:\\Users\\kirj\\Desktop\\Chain2D-SPACSYS\\Chain2DLib\\src",
+			"<open folders>",
+			"C:\\Users\\kirj\\Documents\\Projects\\Syngenta\\7113\\trunk\\Chain2DLib\\src",
+			"C:\\Users\\kirj\\Documents\\Projects\\Syngenta\\7113\\trunk\\Chain2DLib\\src\\*,<open files>",
+			"C:\\Users\\kirj\\Documents\\Projects\\Syngenta\\7113\\trunk\\Chain2DLib\\src\\*",
+			"C:\\Users\\kirj\\Documents\\Projects\\Syngenta\\7113\\trunk\\Chain2DLib\\src",
+			"<open folders>",
+			"*]",
+			"Project",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"visited",
+			"([0-9.]+)\\s+0.15E-4",
+			"100",
+			"sum",
+			"sum(",
+			"maxLik",
+			"maxL",
+			"xvalues",
+			"sort",
+			"maxLikelyhood",
+			"Train_",
+			"print",
+			"automaxLik",
+			"calculateAngleAndDistance",
+			"100",
+			"maxLi",
+			"maxLikelyhood",
+			"relativeAngle",
+			"print",
+			"likel",
+			"cos",
+			"^",
+			"logangleDependence",
+			"Angle",
+			"x",
+			"array",
+			"halo",
+			"arctan2",
+			"show",
+			"class",
+			"hSat",
+			"thermal",
+			"reading heat transport information",
+			"lMinStep",
+			"TmCont",
+			"lMinStep",
+			"([0-9\\.]+)\\s+([0-9\\.])+$",
+			"[0-9\\.]+\\s+0.15E",
+			"write(*",
+			"write( *",
+			"write(",
+			"write(* ,",
+			"write( *,",
+			"write(*,",
+			"write( *,",
+			"write( * ,",
+			"write( *,",
+			"[0-9\\.]*\\s*[0-9\\.]+\\s*$",
+			"[0-9\\.]+\\s*$",
+			"[0-9\\.]+\\s+0.15E-4",
+			"rTop",
+			"ampl",
+			"hcritA",
+			"write(*",
+			"write(",
+			"write( ",
+			"write(*,",
+			"write(*,*)",
+			"lminstep",
+			"3",
+			"5",
+			"0.5",
+			" 1",
+			"(17\\s+10\\s+19[0-2][0-9]\\s+[0-9]*\\s+[0-9\\.]+\\s+[0-9\\.]+\\s+[0-9\\.]+\\s+[0-9\\.]+)\\s+([0-9\\.]+)\\s+([0-9\\.]+)\\s+0.00",
+			"( 6\\s+5\\s+19[0-2][0-9]\\s+[0-9]*\\s+[0-9\\.]+\\s+[0-9\\.]+\\s+[0-9\\.]+\\s+[0-9\\.]+)\\s+([0-9\\.]+)\\s+([0-9\\.]+)\\s+0.00",
+			"0.15E-4",
+			"( 6  6 [0-9][0-9][0-9][0-9]\\s*[0-9]*\\s*[0-9.]*\\s*[0-9.]*\\s*[0-9.]*\\s*[0-9.]*)\\s*([0-9.]*)\\s*([0-9.]*)\\s*([0-9.]*)",
+			"( 6  6.*)0.00",
+			"Sink",
+			"sink",
+			"write(*",
+			"write( *",
+			"write(",
+			"AIEX",
+			"epsi",
+			"nlevel",
+			"epsi",
+			"DS",
+			"SetSnk",
+			"rRoot",
+			"cumqr",
+			"write(78",
+			"write(.*160",
+			"write([0-9]*,160",
+			"write([0-9]*,160)",
+			" ",
+			"Sink",
+			"AIEx",
+			"CumR",
+			"CumChR",
+			"CumR",
+			"CumChR",
+			"SolInf",
+			"CumChR",
+			"write(84",
+			"write(84,",
+			"write(",
+			"write(84,",
+			"Solute",
+			"Sink",
+			"beta",
+			"AIEx",
+			"AI_ex",
+			"AIEx",
+			"screen.out",
+			"a",
+			"a ",
+			"-",
+			"0",
+			"1",
+			"write(74,",
+			"0.15",
+			"0.0150",
+			"puStrLn",
+			"open(50",
+			"Open",
+			"$",
+			"0$",
+			"\\s-([[:digit:]]*)\\s",
+			"-([[:digit:]]+)\\s",
+			"set_Input_Roots",
+			"th_tracker",
+			"th_",
+			"sp_2_c2d",
+			"spacsys_prep",
+			"sp_2_c2d",
+			"c2d_2_sp",
+			"AIEx"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"makemin",
+			"0.00 \\t 0.15E-4",
+			"#",
+			"Ellip",
+			"y",
+			"numpy.arctan2",
+			"0.0 \\t \\2",
+			"0.0 \\t 0.15E",
+			"0.0 \\t 0.0",
+			"0.0 ",
+			"0.00\\t0.15E-4",
+			"4",
+			"3",
+			"2.5",
+			" 5",
+			"\\1 \\t 1.0 \\t \\3 0.15E-4",
+			"0.00",
+			"\\1 \\t 1 \\t \\3 \\t 0.15E-4",
+			"\\1 0.15E-3",
+			"\\10.15E-3",
+			"\\t",
+			"Integer ",
+			" ",
+			"2",
+			"5",
+			" \\t 0.00",
+			"0 \\t 0",
+			"0",
+			"0\\t0",
+			"-&.0",
+			"   ",
+			"\\t 0.00",
+			" 0   0.25"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Training_halos.csv",
+					"settings":
+					{
+						"buffer_size": 19631,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5740,
+								5740
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 76.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "TrainingSets.py",
+					"settings":
+					{
+						"buffer_size": 11692,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5354,
+								5354
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1169.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "findMaxima.py",
+					"settings":
+					{
+						"buffer_size": 3238,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1261,
+								1261
+							]
+						],
+						"settings":
+						{
+							"auto_name": "from TrainingSet import *",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 79.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "exploratory_plots.py",
+					"settings":
+					{
+						"buffer_size": 2913,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29,
+								29
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Gridded_Signal_benchmark_KIRJ.py",
+					"settings":
+					{
+						"buffer_size": 3832,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								271,
+								271
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Python27/Lib/site-packages/numpy/core/numeric.py",
+					"settings":
+					{
+						"buffer_size": 69753,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3759,
+								3759
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1476.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "geometriclib.py",
+					"settings":
+					{
+						"buffer_size": 1065,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1065,
+								1065
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 568.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Train_Skies/Training_Sky89.csv",
+					"settings":
+					{
+						"buffer_size": 32557,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8,
+								8
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "Gridded_Signal_benchmark.py",
+					"settings":
+					{
+						"buffer_size": 5546,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4581,
+								4581
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 997.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 259.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/kirj/Documents/Projects/Syngenta/FortranAndHaskell.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 239.0,
+	"status_bar_visible": true
+}
