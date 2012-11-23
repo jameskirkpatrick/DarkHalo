@@ -54,7 +54,7 @@ class findLocalMaxima:
         maxfirstIndex = np.where(self.signals==maxsignal)[0][0]
         maxseconIndex = np.where(self.signals==maxsignal)[1][0]
 
-        res = ( self.xvalues[maxseconIndex],self.yvalues[maxfirstIndex])
+        res = [self.xvalues[maxseconIndex],self.yvalues[maxfirstIndex]]
         ressofar.append(res)
         n -= 1
 
