@@ -23,7 +23,7 @@ if __name__ == '__main__':
         skyRawData  = numpy.loadtxt('Train_Skies/Training_Sky%i.csv' % p, \
                                  delimiter=',',unpack=True,usecols=(1,2,3,4),skiprows=1)
         sky   = TrainingSky(skyRawData, i )
-        xvalues,yvalues, signals = model.rankLikelyhood(sky,200., 0., 4200., 0., 4200.)
+        xvalues,yvalues, signals = model.rankLikelyhood(sky,100., 0., 4200., 0., 4200.)
         # if we are looking for multiple halos, smoothen the function
         if nhalos > 1:
             smoothsig,windowWidth = smoothen2D(1.,signals)     

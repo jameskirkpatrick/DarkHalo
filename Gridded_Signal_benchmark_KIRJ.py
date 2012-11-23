@@ -1,13 +1,38 @@
+""" Gridded_Signal_benchmak.py
+
+This small code grids up the sky and then finds the signal in each bin. The signal in this case is the force tangential to the galaxy which is e_tangential=-(e1cos(theta)+e2sin(theta)) where theta is the angle between the galaxy and the proposed centre of the halo. From this the pixel with the largest signal should contain the halo. In the case of more than one halo, we should find that the top two or three bins in the gridded area should contain the or 2 or 3 halos. Therefore this code should be able to find all three halos.
+
+@Author: David Harvey
+Created: 22 August 2012
+"""
+
+
+def file_len(fname):
+  """ Calculate the length of a file
+  Arguments:
+         Filename: Name of the file wanting to count the rows of
+  Returns:
+         i+1: Number of lines in file
+  """
+
+  with open(fname) as f:
+    for i, l in enumerate(f):
+      pass
+  return i + 1
+
 
 import numpy as np
 import csv as c
 
 if __name__ == "__main__":
-    n_skies = 3
+
+    n_skies=file_len('Training_haloCounts.csv')-1 # Test set only, doesnt train
+    
     position_halo=np.zeros([n_skies,2,3],float) #Set up the array in which I will
                                                 #assign my estimated positions
     
-    nhalo=np.array([1,1,1])
+    nhalo=np.loadtxt('Training_haloCounts.csv',\
+        usecols=(1,),delimiter=',',skiprows=1) #Load in the number of halos for each sky
             
     for k in xrange(n_skies):
         p=k+1
@@ -31,7 +56,7 @@ if __name__ == "__main__":
                 x0=i*binwidth+binwidth/2. #I set the proposed x position of the halo
                 y0=j*binwidth+binwidth/2. #I set the proposed y position of the halo
             
-                angle_wrt_halo=np.arctan((y-y0)/(x-x0)) #I find the angle each
+                angle_wrt_halo=np.arctan2((y-y0),(x-x0)) #I find the angle each
                                                     #galaxy is at with respects
                                                     #to the centre of the halo.               
                 tangential_force=-(e1*np.cos(2.0*angle_wrt_halo)\
@@ -70,6 +95,14 @@ if __name__ == "__main__":
                                           #The three grid bins
                                           #with the highest signal should
                                           #contain the three halos.
-    for i in range(n_skies):
-      print position_halo[i][0][0], position_halo[i][1][0] 
-  
+    c = c.writer(open("Gridded_Signal_benchmark_Training.csv", "wb")) #Now write the array to a csv file
+    c.writerow([str('SkyId'),str('pred_x1'),str( 'pred_y1'),str( 'pred_x2'),str( 'pred_y2'),str( 'pred_x3'),str(' pred_y3')])
+    for k in xrange(n_skies):
+        halostr=['Sky'+str(k+1)] #Create a string that will write to the file
+                      #and give the first element the sky_id
+        for n in xrange(3):
+            halostr.append(position_halo[k,0,n]) #Assign each of the
+                                             #halo x and y positions to the string
+            halostr.append(position_halo[k,1,n])
+        c.writerow(halostr) #Write the string to a csv
+                        #file with the sky_id and the estimated positions

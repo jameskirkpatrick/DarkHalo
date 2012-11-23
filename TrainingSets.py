@@ -246,7 +246,7 @@ def main():
 
     #test it on the first sky:
     print "precompute likelyhood"
-    model.preComputeLikelyhood(0.01, 50)
+    model.preComputeLikelyhood(numpy.pi/200., 4200/200.)
     print "precomputing finished"
     exporter = pickle.Pickler(f)
     exporter.dump(model)
