@@ -3,8 +3,16 @@ import matplotlib.pyplot as plt
 
 
 def smoothen2D(sigma, coarsearray):
+
+    ysize, xsize = coarsearray.shape
+    
     windowWidth = 2*int(sigma)
     windowSize  = 2*windowWidth+1
+    
+    if windowSize >= ysize or windowSize >= xsize:
+        print "error! use smaller sigma"
+        print "the window size is too large for the number of points"
+        return smoothen2D(sigma/2., coarsearray)
 
     window = np.zeros([windowSize, windowSize])
     normalise = 0.
@@ -16,12 +24,13 @@ def smoothen2D(sigma, coarsearray):
             window[i,j] = val
     window = window / normalise
 
-    ysize, xsize = coarsearray.shape
-    smootharray = np.zeros([ xsize -windowSize,ysize-windowSize])
-    for i in range(xsize-windowSize):
-        for j in range(ysize-windowSize):
+    smootharray = np.zeros([ ysize -windowSize,xsize-windowSize])
+    for j in range(ysize-windowSize):
+        for i in range(xsize-windowSize):
+
             sliceCoarse = coarsearray[j:j+windowSize, i:i+windowSize]
-            smootharray[i,j]  = sum(sum(sliceCoarse * window) )
+
+            smootharray[j,i]  = sum(sum(sliceCoarse * window) )
     return smootharray, windowWidth
 
 class findLocalMaxima:
@@ -35,6 +44,7 @@ class findLocalMaxima:
         self.xsize = len(xvalues)
         self.ysize = len(yvalues)
         self.makemin = np.zeros([self.ysize, self.xsize])
+        print self.xsize, self.ysize, self.makemin.shape,self.signals.shape, signals.shape
 
     def getTopNMaxima(self, n, ressofar = []):
         """ getTopNMaxima
@@ -97,7 +107,7 @@ if __name__ == '__main__':
     ytmp =  yvalues[windowWidth:len(yvalues)-windowWidth-1]
     print xtmp.shape
     print ytmp.shape
-    findmax = findLocalMaxima(ytmp, xtmp, smoothsig)
+    findmax = findLocalMaxima(xtmp, ytmp, smoothsig)
 
 
     print findmax.getTopNMaxima(1)
