@@ -3,16 +3,13 @@
 load the training data and save it into a small 
 
 """
-import csv as csv
 import numpy as numpy 
-import re 
 import matplotlib.pyplot as plt
-import matplotlib.mlab as mlab
-from geometriclib import *
-import math
+import pickle
 from scipy import stats
-import itertools
+
 from findMaxima import *
+from geometriclib import *
 
 class TrainingHalo:
     """ TrainingHalo
@@ -116,7 +113,7 @@ class collectStatistics:
     def fitToCosine(thetaRange, angleDependence ):
         """fitToSine fit a set of angle depenendent data to the formula: 
             intercept + amplitude (cos(2*theta))"""
-        logAngleDependence = numpy.array([math.log(angle) for angle in angleDependence+1E-10])
+        logAngleDependence = numpy.array([numpy.log(angle) for angle in angleDependence+1E-10])
         cosines = numpy.array([cos(2.0*theta)  for theta in thetaRange])
         amplitude , intercept, r_value, p_value, std_err = stats.linregress(cosines, logAngleDependence)
         
@@ -133,11 +130,11 @@ class collectStatistics:
         B(r) has the same meaning as the pdf fitted in fitToCosine, namely:
         pdf(theta) = exp(-B(r) * cos(2*theta) - A)
         """
-        logdistance  = numpy.array([math.log(d) for d in distanceRange])
-        logamplitude = numpy.array([math.log(a) for a in amplitudes])
+        logdistance  = numpy.array([numpy.log(d) for d in distanceRange])
+        logamplitude = numpy.array([numpy.log(a) for a in amplitudes])
 
         alpha , logB0, r_value, p_value, std_err = stats.linregress(logdistance, logamplitude)
-        return (math.exp(logB0), alpha)
+        return (numpy.exp(logB0), alpha)
     
 class modelpdf:
     """modelpdf
@@ -184,18 +181,18 @@ class modelpdf:
         """likelyhood
         computes the likelyhood that an ellipticity with angle theta at distance r is recorded"""
         br = self.b0 * r**self.alpha
-        expar = (1./(2.*math.pi * numpy.i0(br)))
-        return math.exp(-(br*cos(2*theta))) * expar
+        expar = (1./(2.*numpy.pi * numpy.i0(br)))
+        return numpy.exp(-(br*cos(2*theta))) * expar
 
     def preComputeLikelyhood(self, dtheta, dr, width=4200.):
         drmax = width * numpy.sqrt(2)
         rrange     = numpy.arange(0., drmax, dr)
-        thetarange =  numpy.arange(-math.pi, math.pi, dtheta)
+        thetarange =  numpy.arange(-numpy.pi, numpy.pi, dtheta)
         self.preComputedLikelyhood = numpy.zeros([len(thetarange), len(rrange)])
         for ir in range(len(rrange)):
             for itheta in range(len(thetarange)):
                 #taking the log of the likelyhood means I can simply sum rather than multiplying
-                self.preComputedLikelyhood[itheta, ir] = math.log(self.likelyhood(itheta*dtheta+dtheta/2., ir*dr+dr/2.))               
+                self.preComputedLikelyhood[itheta, ir] = numpy.log(self.likelyhood(itheta*dtheta+dtheta/2., ir*dr+dr/2.))               
         self.dtheta = dtheta
         self.dr = dr
 
@@ -243,29 +240,16 @@ def main():
 
     print "model parameters: " , model.alpha, model.b0
 
+    #save the model object here:
+
+    f = file("C:\Users\kirj\Documents\DarkHalo\modelFit.dat", 'w')
+
     #test it on the first sky:
     print "precompute likelyhood"
     model.preComputeLikelyhood(0.01, 50)
     print "precomputing finished"
-    
-    for p in range(1, 110):
-        i = p-1
-        print p, " actual: ", trainingHalo.coord1[i], trainingHalo.coord2[i], trainingHalo.coord3[i]
-        skyRawData  = numpy.loadtxt('Train_Skies/Training_Sky%i.csv' % p, \
-                                 delimiter=',',unpack=True,usecols=(1,2,3,4),skiprows=1)
-        sky   = TrainingSky(skyRawData, i )
-        xvalues,yvalues, signals = model.rankLikelyhood(sky,50., 0., 4200., 0., 4200.)
-
-        smoothsig,windowWidth = smoothen2D(3.,signals)     
-        xtmp = xvalues[windowWidth:len(xvalues)-windowWidth-1]
-        ytmp =  yvalues[windowWidth:len(yvalues)-windowWidth-1]
-        findmax = findLocalMaxima(xtmp, ytmp, smoothsig)
-
-        print "predicted: " , findmax.getTopNMaxima(3,[])
-
-
-        plt.contour(ytmp,xtmp, smoothsig)
-        plt.show()
+    exporter = pickle.Pickler(f)
+    exporter.dump(model)
 
 if __name__ == '__main__':
     main()

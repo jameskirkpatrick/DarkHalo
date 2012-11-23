@@ -44,7 +44,6 @@ class findLocalMaxima:
         self.xsize = len(xvalues)
         self.ysize = len(yvalues)
         self.makemin = np.zeros([self.ysize, self.xsize])
-        print self.xsize, self.ysize, self.makemin.shape,self.signals.shape, signals.shape
 
     def getTopNMaxima(self, n, ressofar = []):
         """ getTopNMaxima
@@ -54,7 +53,6 @@ class findLocalMaxima:
         
         maxfirstIndex = np.where(self.signals==maxsignal)[0][0]
         maxseconIndex = np.where(self.signals==maxsignal)[1][0]
-        print maxfirstIndex, maxseconIndex
 
         res = ( self.xvalues[maxseconIndex],self.yvalues[maxfirstIndex])
         ressofar.append(res)
