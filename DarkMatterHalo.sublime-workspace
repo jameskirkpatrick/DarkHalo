@@ -4,12 +4,64 @@
 		"selected_items":
 		[
 			[
-				"in",
-				"indexY"
+				"Tra",
+				"TrainOrTest"
+			],
+			[
+				"tr",
+				"trainingHalo"
+			],
+			[
+				"Train",
+				"TrainingSets"
+			],
+			[
+				"mode",
+				"modelImporter"
+			],
+			[
+				"Tr",
+				"Training_Sky"
+			],
+			[
+				"win",
+				"windowSize"
+			],
+			[
+				"window",
+				"windowWidth"
+			],
+			[
+				"wind",
+				"windowSize"
 			],
 			[
 				"inde",
+				"indexY"
+			],
+			[
+				"Inde",
 				"indexX"
+			],
+			[
+				"smoo",
+				"smootharray"
+			],
+			[
+				"smoot",
+				"smoothen2D"
+			],
+			[
+				"windo",
+				"windowSize"
+			],
+			[
+				"norm",
+				"normalise"
+			],
+			[
+				"in",
+				"indexY"
 			],
 			[
 				"mas",
@@ -164,10 +216,6 @@
 				"figure"
 			],
 			[
-				"Tr",
-				"True"
-			],
-			[
 				"fitt",
 				"fittedPDF"
 			],
@@ -196,10 +244,6 @@
 				"2DbinCounts"
 			],
 			[
-				"norm",
-				"normaliseByFirstCoordinate"
-			],
-			[
 				"st",
 				"collectStatistics"
 			],
@@ -218,10 +262,6 @@
 			[
 				"allE",
 				"allElliptAngle"
-			],
-			[
-				"tr",
-				"True"
 			],
 			[
 				"bin",
@@ -266,14 +306,6 @@
 			[
 				"com",
 				"computeHaloInformation"
-			],
-			[
-				"Train",
-				"TrainingSky"
-			],
-			[
-				"Tra",
-				"TrainingSky"
 			],
 			[
 				"tri",
@@ -356,26 +388,59 @@
 	"buffers":
 	[
 		{
-			"file": "Training_halos.csv",
+			"file": "TrainingSets.py",
 			"settings":
 			{
-				"buffer_size": 19631,
+				"buffer_size": 10415,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "runSimulation.py",
+			"settings":
+			{
+				"buffer_size": 2578,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Gridded_Signal_benchmark.py",
+			"settings":
+			{
+				"buffer_size": 5546,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "TrainingSets.py",
+			"file": "/C/Python27/lib/site-packages/numpy/lib/npyio.py",
 			"settings":
 			{
-				"buffer_size": 11692,
-				"line_ending": "Windows"
+				"buffer_size": 63502,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "DarkWorldsMetric.py",
+			"settings":
+			{
+				"buffer_size": 15958,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "score.py",
+			"settings":
+			{
+				"buffer_size": 261,
+				"line_ending": "Windows",
+				"name": "from DarkWorldsMetric import *"
 			}
 		},
 		{
 			"file": "findMaxima.py",
 			"settings":
 			{
-				"buffer_size": 3238,
+				"buffer_size": 3982,
 				"line_ending": "Windows",
 				"name": "from TrainingSet import *"
 			}
@@ -392,23 +457,7 @@
 			"file": "Gridded_Signal_benchmark_KIRJ.py",
 			"settings":
 			{
-				"buffer_size": 3832,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Python27/Lib/site-packages/numpy/core/numeric.py",
-			"settings":
-			{
-				"buffer_size": 69753,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "geometriclib.py",
-			"settings":
-			{
-				"buffer_size": 1065,
+				"buffer_size": 5570,
 				"line_ending": "Windows"
 			}
 		},
@@ -421,10 +470,10 @@
 			}
 		},
 		{
-			"file": "Gridded_Signal_benchmark.py",
+			"file": "Training_halos.csv",
 			"settings":
 			{
-				"buffer_size": 5546,
+				"buffer_size": 19631,
 				"line_ending": "Unix"
 			}
 		}
@@ -458,6 +507,8 @@
 	"file_history":
 	[
 		"/C/Users/kirj/Documents/DarkHalo/geometriclib.py",
+		"/C/Python27/Lib/site-packages/numpy/core/numeric.py",
+		"/C/Users/kirj/Documents/DarkHalo/Gridded_Signal_benchmark.py",
 		"/C/Python27/lib/site-packages/matplotlib/axes.py",
 		"/C/Users/kirj/Documents/Projects/Syngenta/AllRuns/ComparisonWithFocus/BBCH9/CHAIN_2D_IN/Grid.in",
 		"/C/Users/kirj/Documents/Projects/Syngenta/AllRuns/ComparisonWithFocus/BBCH9/CHAIN_2D_IN/OKEH-M.met",
@@ -582,9 +633,7 @@
 		"/C/Users/kirj/Documents/Projects/Syngenta/RunSimunekExamples/Test1/AnalyseDifferences/ChangeToDesiredParameters/TightenConversion/CHAIN_2D_IN/Selector.in",
 		"/C/Users/kirj/Documents/Projects/Syngenta/RunSimunekExamples/Test1/AnalyseDifferences/ChangeToDesiredParameters/CHAIN_2D_IN/Selector.in",
 		"/C/Users/kirj/Documents/Projects/Syngenta/RunSimunekExamples/Test1/AnalyseDifferences/ChangeLDisp/TightenConversion/CHAIN_2D_IN/Selector.in",
-		"/C/Users/kirj/Documents/Projects/Syngenta/RunSimunekExamples/Test1/AnalyseDifferences/ChangeToDesiredParameters/TightenConversion/WiderGrid/CHAIN_2D_IN/Selector.in",
-		"/C/Users/kirj/Documents/Projects/Syngenta/RunSimunekExamples/Test1/AnalyseDifferences/ChangeToDesiredParameters/TightenConversion/CHAIN_2D_IN/Grid.in",
-		"/C/Users/kirj/Desktop/MakeFEMgrid.hs"
+		"/C/Users/kirj/Documents/Projects/Syngenta/RunSimunekExamples/Test1/AnalyseDifferences/ChangeToDesiredParameters/TightenConversion/WiderGrid/CHAIN_2D_IN/Selector.in"
 	],
 	"find":
 	{
@@ -595,6 +644,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"<open folders>",
 			"C:\\Users\\kirj\\Desktop\\Chain2D-SPACSYS\\Chain2DLib\\src,<open folders>",
 			"C:\\Users\\kirj\\Desktop\\Chain2D-SPACSYS\\Chain2DLib\\src",
 			"<open folders>",
@@ -613,6 +663,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"itertools",
+			"stats",
+			"math",
+			"csv",
+			"numpy",
+			"smooth",
 			"visited",
 			"([0-9.]+)\\s+0.15E-4",
 			"100",
@@ -734,20 +790,16 @@
 			"\\s-([[:digit:]]*)\\s",
 			"-([[:digit:]]+)\\s",
 			"set_Input_Roots",
-			"th_tracker",
-			"th_",
-			"sp_2_c2d",
-			"spacsys_prep",
-			"sp_2_c2d",
-			"c2d_2_sp",
-			"AIEx"
+			"th_tracker"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
+			"numpy",
+			"np",
 			"makemin",
 			"0.00 \\t 0.15E-4",
 			"#",
@@ -796,44 +848,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Training_halos.csv",
-					"settings":
-					{
-						"buffer_size": 19631,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5740,
-								5740
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 76.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "TrainingSets.py",
 					"settings":
 					{
-						"buffer_size": 11692,
+						"buffer_size": 10415,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5354,
-								5354
+								10279,
+								10279
 							]
 						],
 						"settings":
@@ -843,25 +869,164 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1169.0,
+						"translation.y": 543.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "findMaxima.py",
+					"buffer": 1,
+					"file": "runSimulation.py",
 					"settings":
 					{
-						"buffer_size": 3238,
+						"buffer_size": 2578,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1261,
-								1261
+								1119,
+								1119
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 301.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Gridded_Signal_benchmark.py",
+					"settings":
+					{
+						"buffer_size": 5546,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5534,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Python27/lib/site-packages/numpy/lib/npyio.py",
+					"settings":
+					{
+						"buffer_size": 63502,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25415,
+								25415
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 14193.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "DarkWorldsMetric.py",
+					"settings":
+					{
+						"buffer_size": 15958,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8913,
+								8913
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3236.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "score.py",
+					"settings":
+					{
+						"buffer_size": 261,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								145,
+								145
+							]
+						],
+						"settings":
+						{
+							"auto_name": "from DarkWorldsMetric import *",
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "findMaxima.py",
+					"settings":
+					{
+						"buffer_size": 3982,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1914,
+								1914
 							]
 						],
 						"settings":
@@ -872,13 +1037,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 79.0,
+						"translation.y": 323.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 7,
 					"file": "exploratory_plots.py",
 					"settings":
 					{
@@ -906,19 +1071,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 8,
 					"file": "Gridded_Signal_benchmark_KIRJ.py",
 					"settings":
 					{
-						"buffer_size": 3832,
+						"buffer_size": 5570,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								271,
-								271
+								2469,
+								2469
 							]
 						],
 						"settings":
@@ -928,69 +1093,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 665.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "/C/Python27/Lib/site-packages/numpy/core/numeric.py",
-					"settings":
-					{
-						"buffer_size": 69753,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3759,
-								3759
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1476.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "geometriclib.py",
-					"settings":
-					{
-						"buffer_size": 1065,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1065,
-								1065
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 568.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
+					"buffer": 9,
 					"file": "Train_Skies/Training_Sky89.csv",
 					"settings":
 					{
@@ -1016,29 +1125,27 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "Gridded_Signal_benchmark.py",
+					"buffer": 10,
+					"file": "Training_halos.csv",
 					"settings":
 					{
-						"buffer_size": 5546,
+						"buffer_size": 19631,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4581,
-								4581
+								5740,
+								5740
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 997.0,
+						"translation.y": 76.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1079,7 +1186,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 259.0
+		"height": 260.0
 	},
 	"replace":
 	{
